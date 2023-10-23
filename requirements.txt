@@ -1,0 +1,6 @@
+Libraries Required
+
+1. face_recognition
+2. dlib
+3. mysql 
+4. 

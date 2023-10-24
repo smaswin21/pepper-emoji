@@ -1,6 +1,7 @@
-Libraries Required
+Libraries Used:
 
-1. face_recognition
-2. dlib
-3. mysql 
-4. 
+cv2 (OpenCV): Used for capturing video frames from the webcam, processing the frames, and displaying the result.
+DeepFace: A deep learning-based face recognition and emotion analysis library.
+face_recognition: Used for detecting faces in the frames.
+time: To track the elapsed time.
+emoji: To convert string representations of emojis to actual emojis.

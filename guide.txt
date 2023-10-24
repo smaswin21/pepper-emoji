@@ -1,0 +1,22 @@
+Installation Guide for macOS:
+
+1. Install Python:
+Ensure you have Python installed on your system. If not, you can download it from the official Python website.
+
+2. Install Homebrew (if not installed):
+Homebrew is a package manager for macOS that makes it easier to install software.
+
+3. Install dependencies needed by the libraries
+
+4. Create a virtual environment (optional but recommended):
+This ensures that the libraries you install don't interfere with other Python projects you might have.
+
+5. Install the required Python libraries.
+
+6. Run the code:
+Once all libraries are installed, you can run the emotionFace Python code.
+
+
+python emotion_recognition.py
+
+

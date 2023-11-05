@@ -1,21 +1,54 @@
 Installation Guide for macOS:
 
+# Emotion Recognition with Emoji Feedback
+
+This script uses a combination of `cv2`, `DeepFace`, and `face_recognition` to detect facial emotions in real-time from webcam feed. Detected emotions are then mapped to corresponding emojis.
+
+## Requirements:
+- OpenCV (cv2)
+- DeepFace
+- face_recognition
+- time
+- emoji
+
+## Getting Started:
+
 1. Install Python:
 Ensure you have Python installed on your system. If not, you can download it from the official Python website.
 
-2. Install Homebrew (if not installed):
+2. Ensure you have the required libraries installed:
+   ```bash
+   pip install opencv-python deepface face_recognition emoji
+
+3. Install Homebrew (if not installed):
 Homebrew is a package manager for macOS that makes it easier to install software.
 
-3. Install dependencies needed by the libraries
+4. Install dependencies needed by the libraries
 
-4. Create a virtual environment (optional but recommended):
+5. By creating a virtual environment (optional but recommended):
 This ensures that the libraries you install don't interfere with other Python projects you might have.
 
-5. Install the required Python libraries.
+6. Install the required Python libraries.
 
-6. Run the code:
+Run the code:
 Once all libraries are installed, you can run the emotionFace Python code.
 
+How the Script Works:
+
+Initializes webcam feed.
+Continuously captures frames and detects faces.
+Each detected face undergoes emotion analysis using DeepFace.
+Detected emotions are mapped to their basic forms (e.g., 'happy' to 'Happiness').
+Emotions are further mapped to their corresponding emojis.
+Emotion results are displayed on the video feed and saved to a results list.
+If the 'q' key is pressed or after a predefined duration, the script stops.
+Results are saved to emotion_results.txt.
+
+Modifying the Script:
+
+To change the recognition duration, modify the DURATION variable.
+Add more emotions or change emoji mappings in the map_to_emoji function.
+If you'd like to add more sophisticated logging or feedback mechanisms, modify the end section where results are written to a file.
 
 python emotion_recognition.py
 

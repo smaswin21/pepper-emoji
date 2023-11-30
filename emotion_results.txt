@@ -1,4 +1,5 @@
 Timestamp	Emotion	Emoji
+<<<<<<< HEAD
 2023-11-30 20:42:21	Anger	:angry:
 2023-11-30 20:42:22	Happiness	:smile:
 2023-11-30 20:42:22	Neutral	😐
@@ -6,3 +7,9 @@ Timestamp	Emotion	Emoji
 2023-11-30 20:42:24	Fear	:scream:
 2023-11-30 20:42:24	Neutral	😐
 2023-11-30 20:42:25	Neutral	😐
+=======
+2023-11-30 17:42:41	Neutral	😐
+2023-11-30 17:42:41	Anger	:angry:
+2023-11-30 17:42:42	Surprise	:open_mouth:
+2023-11-30 17:42:43	Neutral	😐
+>>>>>>> 7fdea31 (commit)

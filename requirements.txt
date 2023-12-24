@@ -1,7 +1,5 @@
-Libraries Used:
 
-cv2 (OpenCV): Used for capturing video frames from the webcam, processing the frames, and displaying the result.
-DeepFace: A deep learning-based face recognition and emotion analysis library.
-face_recognition: Used for detecting faces in the frames.
-time: To track the elapsed time.
-emoji: To convert string representations of emojis to actual emojis.
+opencv-python
+deepface
+face_recognition
+emoji

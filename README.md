@@ -6,11 +6,23 @@
 
 The goal of this project is to enhance communication between individuals without disabilities and those with autism by harnessing the power of AI technologies. Specifically, we aim to develop a wearable device that can recognize emotions in individuals facing the person with autism using a Facial Emotion Recognition (FER) model. This device will then display these emotions as emojis or icons on a screen, providing a visual aid to individuals with autism to better understand social cues, thus improving their communication skills.
 
-For the Minimum Viable Product (MVP), the objective is to create a model capable of real-time emotional classification. This model will screen the results as emojis on a display screen for immediate user feedback.
+For the first stage, the objective is to create a model capable of real-time emotional classification. This model will screen the results as emojis on a display screen for immediate user feedback.
 
 ## 💡 Technology
 
 The core of the project involves using an Open Source FER model to detect and classify basic emotions derived from facial expressions. The challenging yet essential aspect of this project lies in processing the classified emotions and displaying them as simplified visual cues (like emojis) on a screen.
+
+## 🛠 Tech Stack
+
+- Python: The primary programming language used for developing the project.
+- OpenCV (cv2): A library focused on real-time computer vision.
+- DeepFace: A deep learning facial recognition and attribute analysis library.
+- face_recognition: A simple facial recognition library in Python.
+- emoji: A Python library for working with emojis.
+- Jupyter Notebook: For interactive development.
+
+## Usage
+Run the cells in the emotionFace.ipynb notebook to start the emotion detection and emoji mapping process. Ensure that your webcam is enabled and functioning correctly for real-time analysis.
 
 ## 🌟 Impact
 
